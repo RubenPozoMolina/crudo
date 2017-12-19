@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/RubenPozoMolina/crudo#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "node-firebird": "^0.8.4"
   }
 }
