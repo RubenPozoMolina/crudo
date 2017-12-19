@@ -2,8 +2,6 @@ var express = require('express');
 var app = express();
 var Firebird = require('node-firebird');
 var Path = require('path');
-var stringify = require('json-stringify');
-var jsonToHtmlTable = require('json-to-htmltable');
 
 app.get('/', function (req, res) {
   var metadata = "";
