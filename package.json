@@ -1,0 +1,29 @@
+{
+  "name": "crudo",
+  "version": "0.0.1",
+  "description": "Create, Read, Update and Deleteimplementation for node with Firebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenPozoMolina/crudo.git"
+  },
+  "keywords": [
+    "crud",
+    "firebird",
+    "node",
+    "web",
+    "wrapper"
+  ],
+  "author": "Rubén Pozo",
+  "license": "(ISC OR GPL-3.0)",
+  "bugs": {
+    "url": "https://github.com/RubenPozoMolina/crudo/issues"
+  },
+  "homepage": "https://github.com/RubenPozoMolina/crudo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
