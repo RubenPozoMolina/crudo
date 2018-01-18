@@ -1,0 +1,11 @@
+var config = {};
+
+config.firebird = {};
+
+config.firebird.user = process.env.FIREBIRD_USER || 'SYSDBA';
+config.firebird.password = process.env.FIRREBIRD_PASSWORD || 'masterkey';
+config.firebird.host = '127.0.0.1';
+config.firebird.port = 3050;
+config.firebird.database = '/var/lib/firebird/3.0/data/employee.fdb';
+
+module.exports = config;
